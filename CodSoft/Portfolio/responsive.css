@@ -1,0 +1,251 @@
+@media (max-width: 700px){
+    .sec1div1{
+        width: 90%;
+        height: 90%;
+        flex-direction: column-reverse;
+    }
+    .sec1div2 {
+        width: 100%;
+        height: 50%;
+        text-align: center;
+    }
+    .sec1div3 {
+        width: 100%;
+        height: 50%;
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .sec1div3 img{
+        width: 60%;
+        height: 60%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .sec1div3 p{
+        padding: 10px;
+        font-size: 1.2em;
+        font-weight: 600;
+        color: crimson;
+    }
+    .section2 {
+        background-color: rgb(25, 25, 25);
+        padding: 40px;
+        display: flex;
+        width: 100%;
+        height: 350vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec2div2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+    }
+    .sec2div3{
+        width: 90%;
+        height: 30%;
+        padding: 30px;
+        text-align: center;
+        justify-content: center;
+        background-color: black;
+        border-radius: 15px;
+        border: 4px dashed black;
+        transition: ease-in-out 0.3s;
+    }
+    .sec2div3 p{
+        font-weight: 300;
+        font-size: 2.5vw;
+    }
+    .sec2div3 h1{
+        color: crimson;
+        padding: 10px;
+        font-size: 3vw;
+    }
+    .section3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200vh;
+        background: url("./images/drop.gif");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    .sec3div0{
+        border-radius: 15px;
+        background-color: rgb(10, 10, 10);
+        width: 95%;
+        height: 90%;
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    } 
+    .sec3div1 h1{
+        font-size: 4vw;
+        color: crimson;
+        font-weight: 700;
+        text-align: center;
+    }
+    .sec3div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 25px;
+        width: 100%;
+        height: 50%;
+    }
+    .sec3div3 {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec3div5 h2{
+        color: crimson;
+        font-size: 3.3vw;
+        font-weight: 800;
+        padding-top: 5px;
+    }
+    .sec3div5 h3{
+        color: white;
+        padding-top: 5px;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .sec3div5 p{
+        color: whitesmoke;
+        padding-top: 5px;
+        font-size: 2vw;
+        font-weight: 300;
+    }
+    .section4 {
+        background-color: rgb(25, 25, 25);
+        padding: 40px;
+        width: 100%;
+        height: 250vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section4 h1{
+        margin: 30px;
+        font-size: 3.5vw;
+        font-weight: 500;
+        color: crimson;
+        text-align: center;
+        font-weight: 700;
+    }
+    .sec4div1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+        gap: 50px;
+    }
+    .sec4div2 {
+        width: 90%;
+        height: 30%;
+        text-align: center;
+        border-radius: 15px;
+        background-color: rgb(10,10,10);
+        border: 4px dashed black;
+        transition: ease-in-out 0.3s;
+    }
+    .sec4div2 h2{
+        font-size: 2.8vw;
+        font-weight: 400;
+        color: crimson;
+        padding: 10px;
+        border-bottom: 1px solid crimson;
+    }
+    .sec4div2 p{
+        font-size: 2.2vw;
+        font-weight: 300;
+        color: whitesmoke;
+        padding: 15px;
+    }
+    .section5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: url("./images/project.gif");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 320vh;
+    }
+    .section5 h1{
+        font-weight: 700;
+        text-align: center;
+        color: crimson;
+        font-size: 4.6vw;
+        padding: 40px;
+    }
+    .sec5div2 {
+        padding: 30px;
+        width: 95%;
+        height: 20%;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: black;
+        border: 4px dashed black;
+        transition: ease-in-out 0.3s;
+    }
+    .sec5div2 img{
+        width: 60%;
+        height: 40%;
+        margin: 15px;
+        border-radius: 50%;
+        border: 4px dashed crimson;
+    }
+    .sec5div3 {
+        padding: 50px;
+        font-size: 2vw;
+        font-weight: 300;
+        color: whitesmoke;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        border-top: 1px solid crimson;
+        border-left: none;
+    
+    }
+    .section6spec a{
+        width: 35%;
+        height: 40px;
+        font-size: 2.2vw;
+        background-color: crimson;
+        color: white;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: ease-in-out 0.3s;
+    }
+}
